@@ -12,13 +12,13 @@
                                                     __/ |
                                                    |___/ 
 ```
-the official virtualenv: [github.com/pypa/virtualenv](https://github.com/pypa/virtualenv)                                                  
+The official virtualenv: [github.com/pypa/virtualenv](https://github.com/pypa/virtualenv)                                                  
 
 ### Why create another virtualenv?
 ```
-I just wanted a shorter commands.
+I just wanted shorter commands.
 
-Who wants to have to type this all the time?
+Because who wants to have to type this all the time?
 
 $ virtualenv venv 
 ```
