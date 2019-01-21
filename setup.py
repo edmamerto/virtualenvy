@@ -12,5 +12,16 @@ def get_version():
         return version_match.group(1)
     raise RuntimeError("Unable to find version string.")
 
-
-setup(version=get_version(), py_modules=["virtualenv"], setup_requires=["setuptools >= 40.6.3"])
+setup(name="virtualenvy",
+      description='A virtualenv fork',
+      version=get_version(),
+      author='Edgar Mamerto',
+      author_email='edmamerto@gmail.com',
+      py_modules=["virtualenv", "virtualenvy"], 
+      setup_requires=["setuptools >= 40.6.3"],
+      entry_points={
+            'console_scripts': [
+                'virtualenvy=virtualenvy:create_venv'
+            ]
+      }
+	   )
